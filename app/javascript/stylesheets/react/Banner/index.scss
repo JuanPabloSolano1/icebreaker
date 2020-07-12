@@ -1,0 +1,107 @@
+.banner-image {
+  width: 100%;
+  height: 550px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/pelle/image/upload/v1594566684/Screenshot_2020-07-12_17.08.31_ylquzd.png');
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.banner-text {
+  position: absolute;
+  font-size: 95px;
+  margin-top: 160px;
+  margin-left: 80px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: #fd1015;
+  color: white;
+  width: 250px;
+  height: 66px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 17px;
+  box-shadow: 0 9px #eaeaea;
+}
+button:active {
+  background-color: grey;
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: #4a4a4a;
+  color: white;
+  width: 70%;
+  text-align: center;
+  border: 6px solid white;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  height: 285px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  background-size: cover;
+}
+
+.modal-title {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 4px;
+}
+.modal-sentence {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #f2e6ce;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: red;
+}
+
+.modal-next {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  color: #eaeaea;
+}
+svg.MuiSvgIcon-root.modal-next {
+  margin-top: 47px;
+}
+.modal-image {
+  width: 50px;
+  height: 48px;
+  border-radius: 50%;
+}
